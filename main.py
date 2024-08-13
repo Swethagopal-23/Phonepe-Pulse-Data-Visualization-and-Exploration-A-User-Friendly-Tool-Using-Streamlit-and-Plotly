@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 import plotly.express as px
 
 # Database connection
-db_engine = create_engine('mysql+pymysql://root:12345678@localhost/phonepe')
+db_engine = create_engine('mysql+pymysql://root:password@host/phonepe')
 
 # Fetch data from MySQL
 def load_data(query):
